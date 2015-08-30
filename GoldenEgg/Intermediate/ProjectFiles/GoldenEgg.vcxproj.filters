@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\GoldenEgg.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{9EDCC5C2-4911-46D8-B043-545767B80C5B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\GoldenEgg.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\GoldenEggEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CBACBD8B-D976-454F-9664-9E110A937574}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\GoldenEgg">
+			<UniqueIdentifier>{FA203765-5EF5-407A-8333-2DA274543E91}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\GoldenEgg\GoldenEgg.Build.cs">
+			<Filter>Source\GoldenEgg</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\GoldenEgg\GoldenEgg.cpp">
+			<Filter>Source\GoldenEgg</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GoldenEgg\GoldenEgg.h">
+			<Filter>Source\GoldenEgg</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\GoldenEgg\GoldenEggGameMode.cpp">
+			<Filter>Source\GoldenEgg</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\GoldenEgg\GoldenEggGameMode.h">
+			<Filter>Source\GoldenEgg</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
