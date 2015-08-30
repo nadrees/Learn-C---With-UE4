@@ -64,4 +64,3 @@ void APuzzleBlockGrid::AddScore()
 }
 
 #undef LOCTEXT_NAMESPACE
-
