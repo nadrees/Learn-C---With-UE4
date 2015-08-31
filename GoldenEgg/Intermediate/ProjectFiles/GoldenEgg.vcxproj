@@ -55,6 +55,8 @@
 		<ClInclude Include="..\..\Source\GoldenEgg\GoldenEgg.h" />
 		<ClCompile Include="..\..\Source\GoldenEgg\GoldenEggGameMode.cpp" />
 		<ClInclude Include="..\..\Source\GoldenEgg\GoldenEggGameMode.h" />
+		<ClCompile Include="..\..\Source\GoldenEgg\Characters\Avatar.cpp" />
+		<ClInclude Include="..\..\Source\GoldenEgg\Characters\Avatar.h" />
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
 		<ProjectGuid>{63E911B2-AEF7-496E-A7D7-595784350566}</ProjectGuid>
